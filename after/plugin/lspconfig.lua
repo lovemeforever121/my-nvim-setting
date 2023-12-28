@@ -1,0 +1,17 @@
+-- local lspconfig = require 'lspconfig'
+--
+-- vim.tbl_deep_extend('keep', lspconfig, {
+--   sourcegraph = {
+--     cmd = { '/home/hari/.local/share/nvim/lazy/sg.nvim/dist/sg-lsp' },
+--     filetypes = { 'lua', 'javascript', 'typescript' },
+--     root_dir = vim.loop.cwd,
+--   }
+-- })
+--
+-- lspconfig.sourcegraph.setup {
+--   cmd = { "/home/hari/.local/share/nvim/lazy/sg.nvim/dist/sg-lsp" },
+--   filetypes = { "typescript", "javascript", "go" },
+--   autostart = true
+-- }
+--
+--
